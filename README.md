@@ -1,5 +1,3 @@
-# .github
-
 # Fission Systems
 
 **Open-source infrastructure for binary analysis, decompilation, and reproducible benchmarking.**
