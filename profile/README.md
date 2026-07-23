@@ -72,21 +72,6 @@ Browser-native decompiler interface.
 
 ---
 
-## Architecture
-
-```
-Binary (PE/ELF/Mach-O)
-  └── fission-loader       — binary parsing, symbols, relocations
-        └── fission-sleigh     — Ghidra SLEIGH lift → P-code
-              └── fission-pcode    — NIR normalization, structuring
-                    └── fission-decompiler — orchestration → pseudocode
-                          ├── fission-cli      — command-line interface
-                          ├── fission-dioxus   — native desktop GUI
-                          └── fission-web      — browser WASM interface
-```
-
----
-
 <div align="center">
 
 **Built in Rust · Benchmarked against real binaries · Open development**
