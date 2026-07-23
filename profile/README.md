@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/fission-systems/.github/main/profile/icon.png" alt="Fission" width="120" />
+<img src="https://raw.githubusercontent.com/fission-systems/.github/main/profile/logo.png" alt="Fission — reverse engineering workspace" width="480" />
 
 # Fission Systems
 
