@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/fission-systems/Fission/main/docs/assets/fission-banner.png" alt="Fission" width="100%" onerror="this.style.display='none'" />
+<img src="https://raw.githubusercontent.com/fission-systems/.github/main/profile/icon.png" alt="Fission" width="120" />
 
 # Fission Systems
 
