@@ -49,10 +49,9 @@ The long-term goal is **restoration, not just readability**: taking a compiled b
 </td>
 <td width="50%" valign="top">
 
-**Interfaces**
-- [`fission-cli`](https://github.com/fission-systems/Fission): command line (`info`, `list`, `disasm`, `decomp`, `xrefs`)
-- TUI and native desktop GUI
-- [`fission-web`](https://github.com/fission-systems/fission-web): browser UI (Dioxus + WebAssembly) backed by a Rust service
+**Interface: CLI agent-first**
+- [`fission-cli`](https://github.com/fission-systems/Fission): command-line interface built to be driven by AI agents and scripts as well as people
+- Commands: `info`, `list`, `disasm`, `decomp`, `xrefs`, with `--json` output for machine consumption
 
 </td>
 </tr>
@@ -64,9 +63,8 @@ The long-term goal is **restoration, not just readability**: taking a compiled b
 
 | Repository | Description |
 |---|---|
-| [**Fission**](https://github.com/fission-systems/Fission) | Core workspace: loader, Sleigh lifting, NIR/HIR, decompiler, emulator, CLI/TUI/GUI |
+| [**Fission**](https://github.com/fission-systems/Fission) | Core workspace: loader, Sleigh lifting, NIR/HIR, decompiler, emulator, agent-first CLI |
 | [**fission-benchmark**](https://github.com/fission-systems/fission-benchmark) | Multi-decompiler benchmark comparing Fission with Ghidra, angr, Radare2, Boomerang, Snowman, rev.ng, Reko, and RetDec, with a [live dashboard](https://fission-benchmark.vercel.app) |
-| [**fission-web**](https://github.com/fission-systems/fission-web) | Browser-native interface (Dioxus WASM) |
 | [**fission-research**](https://github.com/fission-systems/fission-research) | Experiments in semantic recovery: FSL/FIR, multi-architecture semantic patterns, and a pattern corpus |
 
 ---
