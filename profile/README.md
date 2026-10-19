@@ -66,6 +66,7 @@ The long-term goal is **restoration, not just readability**: taking a compiled b
 | [**Fission**](https://github.com/fission-systems/Fission) | Core workspace: loader, Sleigh lifting, NIR/HIR, decompiler, emulator, agent-first CLI |
 | [**fission-benchmark**](https://github.com/fission-systems/fission-benchmark) | Multi-decompiler benchmark comparing Fission with Ghidra, angr, Radare2, Boomerang, Snowman, rev.ng, Reko, and RetDec, with a [live dashboard](https://fission-benchmark.vercel.app) |
 | [**fission-research**](https://github.com/fission-systems/fission-research) | Experiments in semantic recovery: FSL/FIR, multi-architecture semantic patterns, and a pattern corpus |
+| [**fission-forge**](https://github.com/fission-systems/fission-forge) | Early-stage Rust research into training a dedicated neural decompiler from scratch, with Fission integration and planned DecBench evaluation |
 
 ---
 
