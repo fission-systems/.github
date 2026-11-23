@@ -1,60 +1,28 @@
 # Fission Systems
 
-**Open-source infrastructure for binary analysis, decompilation, and reproducible benchmarking.**
+**Agent-first reverse engineering infrastructure, built in Rust.**
 
-Fission Systems develops tools and infrastructure for understanding compiled software.
-
-Our work focuses on binary analysis, intermediate representations, decompilation, validation, and reproducible evaluation. We aim to build systems that are not only capable, but also transparent, measurable, and trustworthy.
+Fission Systems develops open-source binary-analysis, decompilation, semantic-verification, and evaluation tooling. The organization's public GitHub landing page is defined by [`profile/README.md`](profile/README.md).
 
 ## Projects
 
-### [Fission](https://github.com/fission-systems/fission)
+| Repository | Role |
+| --- | --- |
+| [Fission](https://github.com/fission-systems/Fission) | Rust-native, agent-first binary analysis and decompilation CLI |
+| [fission-benchmark](https://github.com/fission-systems/fission-benchmark) | Local, Fission-only DecBench-style evaluation and published results |
+| [fission-research](https://github.com/fission-systems/fission-research) | Experimental FSL/FIR semantic recovery and owned-specification research |
+| [fission-forge](https://github.com/fission-systems/fission-forge) | Experimental Rust/Candle neural decompiler training |
 
-An open-source decompiler and binary analysis framework designed for extensibility, structured analysis, and modern development workflows.
+The shipped Fission pipeline uses its own Rust Sleigh runtime and downstream analysis. The FSL/FIR replacement path and neural decompilation are **research projects**, not shipped Fission capabilities.
 
-### [Fission Benchmark](https://github.com/fission-systems/fission-benchmark)
+## Where to start
 
-A reproducible benchmark suite for evaluating Fission and other decompilers across correctness, output quality, reliability, and performance.
+- [Organization profile](profile/README.md) — overview of the ecosystem, principles, and quick start.
+- [Fission README](https://github.com/fission-systems/Fission#readme) — installation, commands, current support, and architecture.
+- [Fission CLI reference](https://github.com/fission-systems/Fission/blob/main/docs/CLI.md) — available commands and machine-readable contract.
+- [Evaluation and limits](https://github.com/fission-systems/Fission/blob/main/docs/EVALUATION.md) — measured quality and known gaps.
+- [Contributing](https://github.com/fission-systems/Fission/blob/main/CONTRIBUTING.md) — development and collaboration.
 
-## Principles
+**Principles:** correctness before presentation, reproducible measurements, explicit limitations, and open development.
 
-* **Correctness before presentation**
-  Benchmark results should be backed by verifiable semantic evidence.
-
-* **Reproducibility by default**
-  Builds, inputs, environments, and results should be traceable.
-
-* **Transparent evaluation**
-  Failures, missing coverage, and uncertainty should remain visible.
-
-* **Open development**
-  Technical decisions, limitations, and progress should be documented publicly.
-
-* **Composable infrastructure**
-  Components should be reusable across tools, experiments, and automation workflows.
-
-## Areas of Interest
-
-* Binary lifting and analysis
-* Decompilation
-* Intermediate representations
-* Control-flow and data-flow analysis
-* Semantic validation
-* Differential testing
-* Reverse-engineering automation
-* AI-assisted program analysis
-* Reproducible benchmarking
-
-## Contributing
-
-Contributions, technical discussions, bug reports, and benchmark improvements are welcome.
-
-Please use the issue tracker or pull requests in the relevant repository. Project-specific contribution guidelines will be documented within each repository.
-
-## Status
-
-Fission and its surrounding infrastructure are under active development. Interfaces, benchmark methodology, and internal architecture may evolve as validation coverage and platform support improve.
-
----
-
-Built and maintained by the Fission Systems project.
+For exact commands, platform support, and release claims, follow the [Fission repository](https://github.com/fission-systems/Fission) as the source of truth.
